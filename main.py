@@ -13,13 +13,17 @@ def main():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
+    # game loop
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
 
         screen.fill("black")
+
+        player.update(dt)
         player.draw(screen)
+
         pygame.display.flip()
 
         # limit the framerate to 60 FPS
