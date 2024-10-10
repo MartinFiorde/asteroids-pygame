@@ -1,8 +1,8 @@
 import pygame
 
-from circleshape import CircleShape
+from models.circleshape import CircleShape
 from constants import *
-from shoot import Shoot
+from models.shoot import Shoot
 
 
 # Base class for game objects

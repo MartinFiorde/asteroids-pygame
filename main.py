@@ -3,10 +3,10 @@
 import pygame
 
 from constants import *
-from player import Player
-from asteroid import Asteroid
+from models.player import Player
+from models.asteroid import Asteroid
 from asteroidfield import AsteroidField
-from shoot import Shoot
+from models.shoot import Shoot
 
 
 def main():
