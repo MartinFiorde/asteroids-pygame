@@ -15,11 +15,11 @@ class Player(CircleShape):
 
     # in the player class
     def triangle(self):
-        forward = pygame.Vector2(0, 1).rotate(self.rotation)
-        right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
+        forward = pygame.Vector2(0, 1).rotate(self.rotation) * 1.5
+        right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius
         a = self.position + forward * self.radius
-        b = self.position - forward * self.radius - right
-        c = self.position - forward * self.radius + right
+        b = self.position - forward * self.radius / 1.5 - right
+        c = self.position - forward * self.radius / 1.5 + right
         return [a, b, c]
 
     def draw(self, screen):
