@@ -28,3 +28,8 @@ Thumbs.db
 # Archivos temporales de editores de texto
 *.swp
 nano
+
+# Archivos de empaquetado
+build/
+dist/
+main.spec
