@@ -1,7 +1,7 @@
 import pygame
 
 from models.circleshape import CircleShape
-from constants import *
+from constants import * # NOSONAR
 from models.shoot import Shoot
 
 

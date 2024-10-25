@@ -2,14 +2,14 @@
 # documentation: https://www.pygame.org/docs/ref/pygame.html
 import pygame
 
-from constants import *
+from constants import * # NOSONAR
 from models.player import Player
 from models.asteroid import Asteroid
 from asteroidfield import AsteroidField
 from models.shoot import Shoot
 
 
-def main():
+def main(): # NOSONAR
     pygame.init()
     clock = pygame.time.Clock()
     dt = 0

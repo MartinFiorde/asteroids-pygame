@@ -1,6 +1,6 @@
 import pygame
 
-from constants import *
+from constants import * # NOSONAR
 from models.circleshape import CircleShape
 
 

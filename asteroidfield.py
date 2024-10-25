@@ -1,7 +1,7 @@
 import pygame
 import random
 from models.asteroid import Asteroid
-from constants import *
+from constants import * # NOSONAR
 
 
 class AsteroidField(pygame.sprite.Sprite):

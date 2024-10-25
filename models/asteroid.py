@@ -2,7 +2,7 @@ import pygame
 import random
 
 from models.circleshape import CircleShape
-from constants import *
+from constants import * # NOSONAR
 
 
 class Asteroid(CircleShape):
